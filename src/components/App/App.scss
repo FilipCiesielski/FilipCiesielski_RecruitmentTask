@@ -1,0 +1,15 @@
+$mobile: "(max-width: 768px)";
+$tablet: "(min-width: 769px) and (max-width: 1200px)";
+$desktop: "(min-width: 1199px)";
+
+.app__container {
+  width: 100%;
+}
+
+@media #{$desktop,$tablet} {
+  .app__container {
+    width: 75%;
+    margin-top: 1rem;
+    border: 1px solid lightgrey;
+  }
+}
